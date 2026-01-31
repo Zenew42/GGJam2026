@@ -540,7 +540,7 @@ MonoBehaviour:
   dialoguePanel: {fileID: 1759389562}
   dialogueText: {fileID: 1406210908}
   nameText: {fileID: 52994568}
-  CharacterImage: {fileID: 1782262598}
+  characterImage: {fileID: 1782262598}
 --- !u!1 &179202951
 GameObject:
   m_ObjectHideFlags: 0
