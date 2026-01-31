@@ -1,22 +1,22 @@
 fileFormatVersion: 2
-guid: 33b79e5ecf6a0814dacd4e7ad7589c04
+guid: f58008b4093940841a7e03cd73c9dbd4
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 6356998945943356643
-    second: shybear_sprite-Sheet_0
+      213: -4711063157118840563
+    second: shybear_sprite-Shezdczxcxet_0
   - first:
-      213: 446718466821461703
-    second: shybear_sprite-Sheet_1
+      213: 4755776841376218194
+    second: shybear_sprite-Shezdczxcxet_1
   - first:
-      213: 4179407854762987937
-    second: shybear_sprite-Sheet_2
+      213: 3523867917686621141
+    second: shybear_sprite-Shezdczxcxet_2
   - first:
-      213: 4289258426056669456
-    second: shybear_sprite-Sheet_3
+      213: -3837938716657739772
+    second: shybear_sprite-Shezdczxcxet_3
   - first:
-      213: -693967436105487067
-    second: shybear_sprite-Sheet_4
+      213: -4839096619222651282
+    second: shybear_sprite-Shezdczxcxet_4
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -63,7 +63,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 32
+  spritePixelsToUnits: 16
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -112,13 +112,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: shybear_sprite-Sheet_0
+      name: shybear_sprite-Shezdczxcxet_0
       rect:
         serializedVersion: 2
-        x: 19
+        x: 1
         y: 0
-        width: 272
-        height: 311
+        width: 29
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -127,20 +127,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 3e48c7a4cd8983850800000000000000
-      internalID: 6356998945943356643
+      spriteID: d015085d401fe9eb0800000000000000
+      internalID: -4711063157118840563
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: shybear_sprite-Sheet_1
+      name: shybear_sprite-Shezdczxcxet_1
       rect:
         serializedVersion: 2
-        x: 339
+        x: 33
         y: 0
-        width: 272
-        height: 311
+        width: 29
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -149,20 +149,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 7c610892410133600800000000000000
-      internalID: 446718466821461703
+      spriteID: 25c324d07d9eff140800000000000000
+      internalID: 4755776841376218194
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: shybear_sprite-Sheet_2
+      name: shybear_sprite-Shezdczxcxet_2
       rect:
         serializedVersion: 2
-        x: 659
+        x: 65
         y: 0
-        width: 272
-        height: 311
+        width: 29
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -171,20 +171,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 1a110aaec4d300a30800000000000000
-      internalID: 4179407854762987937
+      spriteID: 5d34b1d633b47e030800000000000000
+      internalID: 3523867917686621141
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: shybear_sprite-Sheet_3
+      name: shybear_sprite-Shezdczxcxet_3
       rect:
         serializedVersion: 2
-        x: 979
+        x: 97
         y: 0
-        width: 272
-        height: 311
+        width: 29
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -193,20 +193,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 01975f220d1868b30800000000000000
-      internalID: 4289258426056669456
+      spriteID: 40895eb4217ecbac0800000000000000
+      internalID: -3837938716657739772
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: shybear_sprite-Sheet_4
+      name: shybear_sprite-Shezdczxcxet_4
       rect:
         serializedVersion: 2
-        x: 1299
+        x: 129
         y: 0
-        width: 272
-        height: 311
+        width: 29
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -215,8 +215,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 52d6e3d2b488e56f0800000000000000
-      internalID: -693967436105487067
+      spriteID: e6ea071734318dcb0800000000000000
+      internalID: -4839096619222651282
       vertices: []
       indices: 
       edges: []
@@ -225,7 +225,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 5e97eb03825dee720800000000000000
+    spriteID: 
     internalID: 0
     vertices: []
     indices: 
@@ -235,11 +235,11 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      shybear_sprite-Sheet_0: 6356998945943356643
-      shybear_sprite-Sheet_1: 446718466821461703
-      shybear_sprite-Sheet_2: 4179407854762987937
-      shybear_sprite-Sheet_3: 4289258426056669456
-      shybear_sprite-Sheet_4: -693967436105487067
+      shybear_sprite-Shezdczxcxet_0: -4711063157118840563
+      shybear_sprite-Shezdczxcxet_1: 4755776841376218194
+      shybear_sprite-Shezdczxcxet_2: 3523867917686621141
+      shybear_sprite-Shezdczxcxet_3: -3837938716657739772
+      shybear_sprite-Shezdczxcxet_4: -4839096619222651282
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
