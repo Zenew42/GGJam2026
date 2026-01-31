@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2b498a7831b183141af7bcd90e3e9026, type: 3}
+  m_Name: Shybear
+  m_EditorClassIdentifier: Assembly-CSharp::NPCDialogue
+  npcName: Shybear
+  npcSprite: {fileID: -4839096619222651282, guid: f58008b4093940841a7e03cd73c9dbd4, type: 3}
+  dialogueLines:
+  - hi
+  - hiii
+  - jo mama!
+  autoProgressLines: 010100
+  autoProgressDelay: 1.5
+  typingSpeed: 0.05
+  typingSound: {fileID: 0}
