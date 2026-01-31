@@ -1,6 +1,7 @@
 using System.Collections;
 using TMPro;
 using UnityEngine;
+using UnityEngine.Serialization;
 using UnityEngine.UI;
 
 public class NPC : MonoBehaviour, IInteractable
@@ -9,7 +10,7 @@ public class NPC : MonoBehaviour, IInteractable
 
     public GameObject dialoguePanel;
     public TMP_Text dialogueText, nameText;
-    public Image CharacterImage;
+    public Image characterImage;
     
    private int dialogueIndex;
    private bool isTyping, isDialogueActive;
@@ -21,7 +22,12 @@ public class NPC : MonoBehaviour, IInteractable
   
    public void Interact()
    { 
-       if (dialogueData == null || (PauseController.IsGamePaused && !isDialogueActive)) return;
+       Debug.Log($"Interact called. Paused={PauseController.IsGamePaused}, Active={isDialogueActive}");
+       if (dialogueData == null || (PauseController.IsGamePaused && !isDialogueActive))
+       {
+           Debug.Log("Interact blocked.");
+           return;
+       }
 
        if (isDialogueActive)
        {
@@ -38,8 +44,8 @@ public class NPC : MonoBehaviour, IInteractable
        isDialogueActive = true;
        dialogueIndex = 0;
 
-       nameText.SetText(dialogueData.name);
-       CharacterImage.sprite = dialogueData.npcSprite;
+       nameText.SetText(dialogueData.npcName);
+       characterImage.sprite = dialogueData.npcSprite;
        
        dialoguePanel.SetActive(true);
        PauseController.SetPause(true);
