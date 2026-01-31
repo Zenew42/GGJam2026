@@ -6,17 +6,10 @@ using UnityEngine;
 public class MapTransition : MonoBehaviour
 {
     [SerializeField] private PolygonCollider2D mapBoundary;
+    public Transform teleportPoint;
+    public Transform playerTP;
+    public CinemachineFollow cameraTP;
     private CinemachineConfiner2D confiner;
-    /*[SerializeField] private Direction direction;
-    [SerializeField] private float additivePos = 2f;
-
-    private enum Direction
-    {
-        Up,
-        Down,
-        Left,
-        Right
-    } */
 
     private void Awake()
     {
@@ -25,11 +18,14 @@ public class MapTransition : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
+        Debug.Log("This script is running");
         if (collision.gameObject.CompareTag("Player"))
         {
             confiner.BoundingShape2D = mapBoundary;
             confiner.InvalidateBoundingShapeCache();
-            //UpdatePlayerPosition(collision.gameObject);
+            Debug.Log("In tp range");
+            playerTP.position = teleportPoint.position;
+            cameraTP.ForceCameraPosition(playerTP.position, playerTP.rotation);
         }
     }
 }
