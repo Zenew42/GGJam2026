@@ -410,17 +410,29 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2101075449889134651, guid: 420cb14ccf7238d489890ff56e380955, type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: c42d833fe8f15f44081de634def22c3c, type: 2}
     - target: {fileID: 2984437920962482069, guid: 420cb14ccf7238d489890ff56e380955, type: 3}
       propertyPath: m_Radius
       value: 1.6
       objectReference: {fileID: 0}
     - target: {fileID: 2984437920962482069, guid: 420cb14ccf7238d489890ff56e380955, type: 3}
       propertyPath: m_Offset.y
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4532767862658227212, guid: 420cb14ccf7238d489890ff56e380955, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: -2433264371250706558, guid: 726a911e766cb3e4cab6b9b137d2d0ba, type: 3}
     - target: {fileID: 4532767862658227212, guid: 420cb14ccf7238d489890ff56e380955, type: 3}
       propertyPath: m_SortingOrder
       value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 4532767862658227212, guid: 420cb14ccf7238d489890ff56e380955, type: 3}
+      propertyPath: m_WasSpriteAssigned
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4869160862620046273, guid: 420cb14ccf7238d489890ff56e380955, type: 3}
       propertyPath: m_IsActive
@@ -6144,8 +6156,8 @@ BoxCollider2D:
   m_Offset: {x: 0, y: 0}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0}
-    oldSize: {x: 1.25, y: 1.75}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 1.375, y: 1.8125}
     newSize: {x: 1, y: 1}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
