@@ -44,8 +44,8 @@ public class NPC : MonoBehaviour, IInteractable
    {
        isDialogueActive = true;
        dialogueIndex = 0;
-       
-       dialogueUI.SetNPCInfo(dialogueData.npcName, dialogueData.npcSprite);
+
+       dialogueUI.SetNPCInfo(dialogueData.npcName, null); 
        dialogueUI.ShowDialogueUI(true);
        PauseController.SetPause(true);
 
@@ -129,6 +129,21 @@ public class NPC : MonoBehaviour, IInteractable
    void DisplayCurrentLine()
    {
        StopAllCoroutines();
+
+       if (dialogueData.linePortraits != null &&
+           dialogueIndex < dialogueData.linePortraits.Length)
+       {
+           dialogueUI.characterImage.sprite = dialogueData.linePortraits[dialogueIndex];
+       }
+
+       if (dialogueData.addToPartyLines != null &&
+           dialogueIndex < dialogueData.addToPartyLines.Length &&
+           dialogueData.addToPartyLines[dialogueIndex])
+       {
+           Sprite portrait = dialogueData.linePortraits[dialogueIndex];
+           PartyManager.Instance.AddToParty(portrait, this.gameObject);
+       }
+
        StartCoroutine(TypeLine());
    }
    

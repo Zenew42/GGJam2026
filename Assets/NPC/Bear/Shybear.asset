@@ -13,7 +13,11 @@ MonoBehaviour:
   m_Name: Shybear
   m_EditorClassIdentifier: Assembly-CSharp::NPCDialogue
   npcName: Shybear
-  npcSprite: {fileID: -4839096619222651282, guid: f58008b4093940841a7e03cd73c9dbd4, type: 3}
+  linePortraits:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
   dialogueLines:
   - helloooo
   - does my shirt make me look big?
@@ -25,6 +29,7 @@ MonoBehaviour:
   autoProgressDelay: 1.5
   typingSpeed: 0.05
   typingSound: {fileID: 0}
+  addToPartyLines: 
   choices:
   - dialogueIndex: 1
     choices:
