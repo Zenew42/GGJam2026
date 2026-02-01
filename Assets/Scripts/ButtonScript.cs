@@ -14,7 +14,15 @@ public class StartButton : MonoBehaviour
 
     private void TaskOnClick()
     {
-        SceneManager.LoadScene("Tilemapping scene");
+        if (buttonType == 1)
+        {
+            SceneManager.LoadScene("Tilemapping scene");
+        }
+        else if (buttonType == 2)
+        {
+            Debug.Log("Quittin");
+            Application.Quit();
+        }
     }
 
 }
