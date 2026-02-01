@@ -31,7 +31,6 @@ public class PartyManager : MonoBehaviour
         GameObject icon = Instantiate(partyIconPrefab, partyContainer);
         icon.GetComponent<Image>().sprite = portrait;
 
-        // Remove NPC from world
-        Destroy(npcObject);
+        npcObject.transform.position = new Vector3(9999, 9999, 0);
     }
 }

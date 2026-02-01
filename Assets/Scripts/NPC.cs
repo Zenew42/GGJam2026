@@ -11,6 +11,8 @@ public class NPC : MonoBehaviour, IInteractable
     private DialogueController dialogueUI;
    private int dialogueIndex;
    private bool isTyping, isDialogueActive;
+   private bool shouldJoinParty = false;
+   private Sprite joinPortrait = null;
 
    private void Start()
    {
@@ -140,8 +142,8 @@ public class NPC : MonoBehaviour, IInteractable
            dialogueIndex < dialogueData.addToPartyLines.Length &&
            dialogueData.addToPartyLines[dialogueIndex])
        {
-           Sprite portrait = dialogueData.linePortraits[dialogueIndex];
-           PartyManager.Instance.AddToParty(portrait, this.gameObject);
+           shouldJoinParty = true;
+           joinPortrait = dialogueData.linePortraits[dialogueIndex];
        }
 
        StartCoroutine(TypeLine());
@@ -154,5 +156,11 @@ public class NPC : MonoBehaviour, IInteractable
        dialogueUI.SetDialogueText("");
        dialogueUI.ShowDialogueUI(false);
        PauseController.SetPause(false);
+
+       // Perform party join after dialogue ends
+       if (shouldJoinParty && joinPortrait != null)
+       {
+           PartyManager.Instance.AddToParty(joinPortrait, this.gameObject);
+       }
    }
 }
