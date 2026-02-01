@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: cb606738e04a3e0409bbd482ef8541a7
+guid: bd7b96f05b9366e479b6ad181d60e03f
 ScriptedImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -127,7 +127,7 @@ ScriptedImporter:
     tessellationDetail: 0
     uvTransform: {x: 0, y: 0}
   animatedSpriteImportData:
-  - name: Lobby
+  - name: Sprite-0005
     originalName: 
     pivot: {x: 0.50310564, y: 0}
     alignment: 9
@@ -139,7 +139,7 @@ ScriptedImporter:
       y: 4
       width: 483
       height: 270
-    spriteID: f6fe3c5777e96be47b6b48e75f822d77
+    spriteID: 20b2a7957c4408347abdf2237bedac5a
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -153,17 +153,17 @@ ScriptedImporter:
   asepriteLayers:
   - layerIndex: 0
     uuid:
-      value0: 3524152506
+      value0: 4228612821
       value1: 0
       value2: 0
       value3: 0
     guid: 0
-    name: Lobby
+    name: Sprite-0005
     layerFlags: 0
     layerType: 0
     blendMode: 0
     cells:
-    - name: Lobby
+    - name: Sprite-0005
       frameIndex: 0
       additiveSortOrder: 0
       cellRect:
@@ -171,7 +171,7 @@ ScriptedImporter:
         y: 0
         width: 483
         height: 270
-      spriteId: f6fe3c5777e96be47b6b48e75f822d77
+      spriteId: 20b2a7957c4408347abdf2237bedac5a
     linkedCells: []
     tileCells: []
     tileSetIndex: 0
