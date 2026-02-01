@@ -83,7 +83,7 @@ SpriteRenderer:
   m_SortingLayer: 4
   m_SortingOrder: 0
   m_MaskInteraction: 0
-  m_Sprite: {fileID: -4711063157118840563, guid: f58008b4093940841a7e03cd73c9dbd4, type: 3}
+  m_Sprite: {fileID: 794771719245926436, guid: 715a15398bf9f86499668f405a4b1eeb, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -131,7 +131,7 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1.8125, y: 2}
+    oldSize: {x: 1, y: 1}
     newSize: {x: 1, y: 1}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -151,7 +151,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 46c6b25321fedee48b27e4fffc0b5ed3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: '::'
-  dialogueData: {fileID: 11400000, guid: a76b23c2c78a11642a72eb443a511ccf, type: 2}
+  dialogueData: {fileID: 11400000, guid: 8ed5a751dcda2d8439acad1964c96996, type: 2}
   dialoguePanel: {fileID: 0}
   dialogueText: {fileID: 0}
   nameText: {fileID: 0}
