@@ -530,18 +530,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: npc
       objectReference: {fileID: 0}
-    - target: {fileID: 6079665047844279029, guid: 2cda34c89b73c79478e4edad70f54925, type: 3}
-      propertyPath: m_Sprite
-      value: 
-      objectReference: {fileID: -4711063157118840563, guid: f58008b4093940841a7e03cd73c9dbd4, type: 3}
     - target: {fileID: 6653007762042835018, guid: 2cda34c89b73c79478e4edad70f54925, type: 3}
       propertyPath: nameText
       value: 
       objectReference: {fileID: 1588784553}
-    - target: {fileID: 6653007762042835018, guid: 2cda34c89b73c79478e4edad70f54925, type: 3}
-      propertyPath: dialogueData
-      value: 
-      objectReference: {fileID: 11400000, guid: a76b23c2c78a11642a72eb443a511ccf, type: 2}
     - target: {fileID: 6653007762042835018, guid: 2cda34c89b73c79478e4edad70f54925, type: 3}
       propertyPath: dialogueText
       value: 
@@ -6504,18 +6496,6 @@ PrefabInstance:
     - target: {fileID: 2706629377626798072, guid: 68926f69e4d4e6f4e8670ec36807fa13, type: 3}
       propertyPath: m_Name
       value: Canvas
-      objectReference: {fileID: 0}
-    - target: {fileID: 4585258392407006693, guid: 68926f69e4d4e6f4e8670ec36807fa13, type: 3}
-      propertyPath: m_Color.b
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 4585258392407006693, guid: 68926f69e4d4e6f4e8670ec36807fa13, type: 3}
-      propertyPath: m_Color.g
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 4585258392407006693, guid: 68926f69e4d4e6f4e8670ec36807fa13, type: 3}
-      propertyPath: m_Color.r
-      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 9059836836363336059, guid: 68926f69e4d4e6f4e8670ec36807fa13, type: 3}
       propertyPath: m_Pivot.x
