@@ -1,0 +1,57 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2b498a7831b183141af7bcd90e3e9026, type: 3}
+  m_Name: Alien
+  m_EditorClassIdentifier: Assembly-CSharp::NPCDialogue
+  npcName: Allan
+  linePortraits:
+  - {fileID: -1495666229727691107, guid: a2729adec8d622041b97a542271e80a5, type: 3}
+  - {fileID: -1495666229727691107, guid: a2729adec8d622041b97a542271e80a5, type: 3}
+  - {fileID: -1495666229727691107, guid: a2729adec8d622041b97a542271e80a5, type: 3}
+  - {fileID: -1495666229727691107, guid: a2729adec8d622041b97a542271e80a5, type: 3}
+  - {fileID: -1495666229727691107, guid: a2729adec8d622041b97a542271e80a5, type: 3}
+  - {fileID: -1495666229727691107, guid: a2729adec8d622041b97a542271e80a5, type: 3}
+  - {fileID: -1495666229727691107, guid: a2729adec8d622041b97a542271e80a5, type: 3}
+  - {fileID: -6996237446439410485, guid: 39997e61a274b3044bb74bfc35ea2786, type: 3}
+  - {fileID: -4602550686693881846, guid: 5eca09c67709f5f458bed1bf3395b065, type: 3}
+  dialogueLines:
+  - Yo! This pizza is bomb bro!
+  - I need a favor man...
+  - U trust me buddy?
+  - okay okay but like
+  - you gotta like really trust me
+  - 'like like '
+  - really??
+  - Thank you chud
+  - Fuck u hoe
+  autoProgressLines: 01
+  endDialogueLines: 000000000000000101
+  autoProgressDelay: 1.5
+  typingSpeed: 0.05
+  typingSound: {fileID: 0}
+  addToPartyLines: 000000000000000100
+  choices:
+  - dialogueIndex: 2
+    choices:
+    - i do
+    - why would i trust you?
+    nextDialogueIndexes: 0300000008000000
+  - dialogueIndex: 4
+    choices:
+    - i REALLY trust you!
+    - maybe not...
+    nextDialogueIndexes: 0500000008000000
+  - dialogueIndex: 6
+    choices:
+    - I TRUST YOU SO MUCJHJHJHHJH
+    - FUCK
+    nextDialogueIndexes: 0700000008000000
