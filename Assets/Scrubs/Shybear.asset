@@ -15,9 +15,9 @@ MonoBehaviour:
   npcName: Shybear
   npcSprite: {fileID: -4839096619222651282, guid: f58008b4093940841a7e03cd73c9dbd4, type: 3}
   dialogueLines:
-  - hi
-  - hiii
-  - jo mama!
+  - whats up!!
+  - does my sweater look okay?
+  - wowww thank you!
   autoProgressLines: 010100
   autoProgressDelay: 1.5
   typingSpeed: 0.05
