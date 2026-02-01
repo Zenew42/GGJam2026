@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: f91b59572b85f7a4d97a001a03ee08f8
+guid: 9d579dc370bae1e44a86dfbe490136b2
 ScriptedImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -102,7 +102,7 @@ ScriptedImporter:
     generateIndividualEvents: 1
     generateSpriteAtlas: 1
   importFileNodeState: 1
-  platformSettingsDirtyTick: 639054902760067346
+  platformSettingsDirtyTick: 639055073444759436
   textureAssetName: 
   singleSpriteImportData:
   - name: 
@@ -127,9 +127,9 @@ ScriptedImporter:
     tessellationDetail: 0
     uvTransform: {x: 0, y: 0}
   animatedSpriteImportData:
-  - name: Sprite-0005 (1)
+  - name: table 3
     originalName: 
-    pivot: {x: 0.5, y: 0}
+    pivot: {x: 0.52500004, y: -0.09615385}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     customData: 
@@ -137,9 +137,9 @@ ScriptedImporter:
       serializedVersion: 2
       x: 4
       y: 4
-      width: 480
-      height: 270
-    spriteID: ff8ac20448c35d14395c0443b004b673
+      width: 40
+      height: 52
+    spriteID: 827e0224b808248449eb7fadb481037c
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -153,25 +153,25 @@ ScriptedImporter:
   asepriteLayers:
   - layerIndex: 0
     uuid:
-      value0: 2993076897
+      value0: 3829403277
       value1: 0
       value2: 0
       value3: 0
     guid: 0
-    name: Sprite-0005 (1)
+    name: table 3
     layerFlags: 0
     layerType: 0
     blendMode: 0
     cells:
-    - name: map layout
+    - name: table 3
       frameIndex: 0
       additiveSortOrder: 0
       cellRect:
-        x: 0
-        y: 0
-        width: 480
-        height: 270
-      spriteId: ff8ac20448c35d14395c0443b004b673
+        x: 11
+        y: 5
+        width: 40
+        height: 52
+      spriteId: 827e0224b808248449eb7fadb481037c
     linkedCells: []
     tileCells: []
     tileSetIndex: 0
@@ -205,5 +205,5 @@ ScriptedImporter:
   generatePhysicsShape: 0
   secondarySpriteTextures: []
   spritePackingTag: 
-  canvasSize: {x: 480, y: 270}
-  previousTextureSize: {x: 512, y: 512}
+  canvasSize: {x: 64, y: 64}
+  previousTextureSize: {x: 64, y: 64}
