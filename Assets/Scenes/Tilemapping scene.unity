@@ -6499,6 +6499,10 @@ PrefabInstance:
       value: 105.3
       objectReference: {fileID: 0}
     - target: {fileID: 5640016284919504254, guid: 68926f69e4d4e6f4e8670ec36807fa13, type: 3}
+      propertyPath: m_margin.z
+      value: -499.87708
+      objectReference: {fileID: 0}
+    - target: {fileID: 5640016284919504254, guid: 68926f69e4d4e6f4e8670ec36807fa13, type: 3}
       propertyPath: m_fontColor.b
       value: 1
       objectReference: {fileID: 0}

@@ -28,7 +28,7 @@ MonoBehaviour:
   autoProgressLines: 0100000000
   endDialogueLines: 0000010001
   autoProgressDelay: 1.5
-  typingSpeed: 0.05
+  typingSpeed: 0.03
   typingSound: {fileID: 0}
   addToPartyLines: 0000010001
   choices:
