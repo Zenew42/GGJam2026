@@ -11,5 +11,12 @@ public class NPCDialogue : ScriptableObject
     public float autoProgressDelay = 1.5f;
     public float typingSpeed = 0.05f;
     public AudioClip typingSound;
-    
+}
+
+[System.Serializable]
+public class DialogueChoice
+{
+    public int dialogueIndex; //dialogue line where choices appear
+    public string[] choices; //player responses
+    public int[] nextDialogueIndexes; //where choice leads
 }
