@@ -15,10 +15,19 @@ MonoBehaviour:
   npcName: Shybear
   npcSprite: {fileID: -4839096619222651282, guid: f58008b4093940841a7e03cd73c9dbd4, type: 3}
   dialogueLines:
-  - whats up!!
+  - helloooo
   - does my sweater look okay?
   - wowww thank you!
-  autoProgressLines: 010100
+  - yeah you're right...
+  - this really does show off my amazing muscles!
+  autoProgressLines: 0100000000
+  endDialogueLines: 0000010001
   autoProgressDelay: 1.5
   typingSpeed: 0.05
   typingSound: {fileID: 0}
+  choices:
+  - dialogueIndex: 1
+    choices:
+    - it does kinda...
+    - you look wonderful!
+    nextDialogueIndexes: 0300000002000000
